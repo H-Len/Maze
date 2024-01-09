@@ -1,6 +1,5 @@
 from graphics import Window
 from maze import Maze
-# import time
 
 
 def main():
@@ -14,7 +13,6 @@ def main():
     win = Window(screen_x, screen_y)
 
     maze = Maze(margin, margin, num_rows, num_cols, cell_size_x, cell_size_y, win, 10)
-    # print(time.localtime())
     win.wait_for_close()
 
 
